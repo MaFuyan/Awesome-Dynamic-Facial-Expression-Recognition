@@ -35,7 +35,7 @@
 </thead>
 <tbody>
   <tr>
-    <th>3D R18</th>
+    <th>3DR18</th>
     <th>76.32</th>
     <th>50.21</th>
     <th>64.18</th>
@@ -158,27 +158,87 @@
 </thead>
 <tbody>
   <tr>
-    <th>R18+LSTM<sup>[6]</sup></th>
-    <th>\</th>
-    <th>\</th>
-    <th>\</th>
-    <th>\</th>
-    <th>\</th>
-    <th>\</th>
-    <th>\</th>
-    <th>30.92</th>
+    <th>R18+LSTM</th>
+    <th>61.91</th>
+    <th>31.95</th>
+    <th>61.70 </th>
+    <th>45.93 </th>
+    <th>14.26 </th>
+    <th>0.00 </th>
+    <th>0.70 </th>
+    <th>30.92 </th>
     <th>42.59</th>
   </tr>
   <tr>
-    <th>Two VGG13-LSTM<sup>[6]</sup></th>
-    <th>69.65</th>
-    <th>47.31</th>
-    <th>52.55</th>
-    <th>47.88</th>
-    <th>7.68</th>
-    <th>1.93</th>
-    <th>2.55</th>
-    <th>32.79</th>
+    <th>VGG13+LSTM</th>
+    <th>66.26 </th>
+    <th>51.26 </th>
+    <th>53.22 </th>
+    <th>37.93 </th>
+    <th>13.64 </th>
+    <th>0.43 </th>
+    <th>4.18 </th>
+    <th>32.42 </th>
+    <th>43.37</th>
+  </tr>
+  <tr>
+    <th>C3D</th>
+    <th>48.20 </th>
+    <th>35.53 </th>
+    <th>52.71 </th>
+    <th>13.72 </th>
+    <th>3.45 </th>
+    <th>4.93 </th>
+    <th>0.23 </th>
+    <th>22.68 </th>
+    <th>31.69</th>
+  </tr>
+  <tr>
+    <th>3DR18</th>
+    <th>57.64 </th>
+    <th>28.21 </th>
+    <th>59.60 </th>
+    <th>33.29 </th>
+    <th>4.70 </th>
+    <th>0.21 </th>
+    <th>3.02 </th>
+    <th>26.67 </th>
+    <th>37.57</th>
+  </tr>
+  <tr>
+    <th>Two C3D<sup>[6]</sup></th>
+    <th>54.85 </th>
+    <th>52.91 </th>
+    <th>60.67 </th>
+    <th>31.34 </th>
+    <th>5.96 </th>
+    <th>2.36 </th>
+    <th>6.96 </th>
+    <th>30.72 </th>
+    <th>41.77</th>
+  </tr>
+  <tr>
+    <th>Two R18+LSTM<sup>[6]</sup></th>
+    <th>59.00 </th>
+    <th>45.87 </th>
+    <th>61.90 </th>
+    <th>40.15 </th>
+    <th>9.87 </th>
+    <th>1.71 </th>
+    <th>0.46 </th>
+    <th>31.28 </th>
+    <th>43.2</th>
+  </tr>
+  <tr>
+    <th>Two VGG13+LSTM<sup>[6]</sup></th>
+    <th>69.65 </th>
+    <th>47.31 </th>
+    <th>52.55 </th>
+    <th>47.88 </th>
+    <th>7.68 </th>
+    <th>1.93 </th>
+    <th>2.55 </th>
+    <th>32.79 </th>
     <th>44.54</th>
   </tr>
   <tr>
@@ -204,7 +264,7 @@
   <th>0.23</th>
   <th>33.99</th>
   <th>45.97</th>
-</tr>
+  </tr>
 </tbody>
 </table>
 
