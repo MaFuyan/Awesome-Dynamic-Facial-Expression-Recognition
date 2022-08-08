@@ -193,6 +193,18 @@
     <th>36.88</th>
     <th>45.72</th>
   </tr>
+  <tr>
+  <th>NR-DFERNet<sup>[5]</sup></th>
+  <th>69.18</th>
+  <th>54.77</th>
+  <th>51.12</th>
+  <th>49.70</th>
+  <th>13.17</th>
+  <th>0.00</th>
+  <th>0.23</th>
+  <th>33.99</th>
+  <th>45.97</th>
+</tr>
 </tbody>
 </table>
 
