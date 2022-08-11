@@ -1,5 +1,7 @@
 # Awesome Dynamic Facial Expression Recognition
 
+**[Note] This repo presents the performance of the SOTA methods on popular benchmarks. The superscript # denotes methods conducted with the same setting, the code can be found [here](https://github.com/zengqunzhao/Former-DFER). Contributions are very welcome! Feel free to pull request and improve this repo!**
+
 - [Awesome Dynamic Facial Expression Recognition](#awesome-dynamic-facial-expression-recognition)
   - [DFEW Benchmark [ACM MM 2021]](#dfew-benchmark-acm-mm-2021)
   - [FERV39k Benchmark [CVPR 2022]](#ferv39k-benchmark-cvpr-2022)
@@ -35,7 +37,7 @@
 </thead>
 <tbody>
   <tr>
-    <th>3DR18</th>
+    <th>3DR18<sup>#</sup></th>
     <th>76.32</th>
     <th>50.21</th>
     <th>64.18</th>
@@ -47,7 +49,7 @@
     <th>58.27</th>
   </tr>
   <tr>
-    <th>R18+LSTM</th>
+    <th>R18+LSTM<sup>#</sup></th>
     <th>83.56</th>
     <th>61.56</th>
     <th>68.27</th>
@@ -59,7 +61,7 @@
     <th>63.85</th>
   </tr>
   <tr>
-    <th>R18+GRU</th>
+    <th>R18+GRU<sup>#</sup></th>
     <th>82.87</th>
     <th>63.83</th>
     <th>65.06</th>
@@ -83,7 +85,7 @@
     <th>56.51</th>
   </tr>
   <tr>
-    <th>Former-DFER<sup>[2]</sup></th>
+    <th>Former-DFER<sup>#[2]</sup></th>
     <th>84.05</th>
     <th>62.57</th>
     <th>67.52</th>
@@ -107,7 +109,7 @@
     <th>65.85</th>
   </tr>
   <tr>
-    <th>STT<sup>[4]</sup></th>
+    <th>STT<sup>#[4]</sup></th>
     <th>87.36</th>
     <th>67.90</th>
     <th>64.97</th>
@@ -119,7 +121,7 @@
     <th>66.65</th>
   </tr>
   <tr>
-    <th>NR-DFERNet<sup>[5]</sup></th>
+    <th>NR-DFERNet<sup>#[5]</sup></th>
     <th>88.47</th>
     <th>64.84</th>
     <th>70.03</th>
@@ -158,6 +160,54 @@
 </thead>
 <tbody>
   <tr>
+    <th>C3D</th>
+    <th>48.20 </th>
+    <th>35.53 </th>
+    <th>52.71 </th>
+    <th>13.72 </th>
+    <th>3.45 </th>
+    <th>4.93 </th>
+    <th>0.23 </th>
+    <th>22.68 </th>
+    <th>31.69</th>
+  </tr>
+  <tr>
+    <th>P3D<sup>#</sup></th>
+    <th>62.28  </th>
+    <th>40.87 </th>
+    <th>42.36 </th>
+    <th>43.72 </th>
+    <th>7.34 </th>
+    <th>0.00 </th>
+    <th>2.51 </th>
+    <th>28.44 </th>
+    <th>38.41</th>
+  </tr>
+  <tr>
+    <th>R2Plus1D<sup>#</sup></th>
+    <th>72.57 </th>
+    <th>51.95 </th>
+    <th>40.61 </th>
+    <th>47.00 </th>
+    <th>18.77 </th>
+    <th>5.06 </th>
+    <th>7.29 </th>
+    <th>34.75 </th>
+    <th>44.27</th>
+  </tr>
+  <tr>
+    <th>3DR18</th>
+    <th>57.64 </th>
+    <th>28.21 </th>
+    <th>59.60 </th>
+    <th>33.29 </th>
+    <th>4.70 </th>
+    <th>0.21 </th>
+    <th>3.02 </th>
+    <th>26.67 </th>
+    <th>37.57</th>
+  </tr>  
+  <tr>
     <th>R18+LSTM</th>
     <th>61.91</th>
     <th>31.95</th>
@@ -180,30 +230,6 @@
     <th>4.18 </th>
     <th>32.42 </th>
     <th>43.37</th>
-  </tr>
-  <tr>
-    <th>C3D</th>
-    <th>48.20 </th>
-    <th>35.53 </th>
-    <th>52.71 </th>
-    <th>13.72 </th>
-    <th>3.45 </th>
-    <th>4.93 </th>
-    <th>0.23 </th>
-    <th>22.68 </th>
-    <th>31.69</th>
-  </tr>
-  <tr>
-    <th>3DR18</th>
-    <th>57.64 </th>
-    <th>28.21 </th>
-    <th>59.60 </th>
-    <th>33.29 </th>
-    <th>4.70 </th>
-    <th>0.21 </th>
-    <th>3.02 </th>
-    <th>26.67 </th>
-    <th>37.57</th>
   </tr>
   <tr>
     <th>Two C3D<sup>[6]</sup></th>
@@ -242,7 +268,7 @@
     <th>44.54</th>
   </tr>
   <tr>
-    <th>Former-DFER<sup>[2]</sup></th>
+    <th>Former-DFER<sup>#[2]</sup></th>
     <th>67.57</th>
     <th>44.16</th>
     <th>51.81</th>
@@ -254,7 +280,7 @@
     <th>45.72</th>
   </tr>
   <tr>
-  <th>NR-DFERNet<sup>[5]</sup></th>
+  <th>NR-DFERNet<sup>#[5]</sup></th>
   <th>69.18</th>
   <th>54.77</th>
   <th>51.12</th>
@@ -280,7 +306,8 @@
 
 ## [AFEW Benchmark](https://cs.anu.edu.au/few/AFEW.html) [IEEE Multimedia 2012]
 
-## [Referances]()
+## [References]()
+
 1. Jiang X, Zong Y, Zheng W, et al. Dfew: A large-scale database for recognizing dynamic facial expressions in the wild. ACM MM, 2020. [[Paper](https://doi.org/10.1145/3394171.3413620)]
 2. Zhao Z, Liu Q. Former-dfer: Dynamic facial expression recognition transformer. ACM MM, 2021. [[Paper](https://doi.org/10.1145/3394171.3413620)] [[Code](https://github.com/zengqunzhao/Former-DFER)]
 3. Liu Y, Wang W, Feng C, et al. Expression Snippet Transformer for Robust Video-based Facial Expression Recognition. arXiv, 2021. [[Paper](https://arxiv.org/abs/2109.08409)]
