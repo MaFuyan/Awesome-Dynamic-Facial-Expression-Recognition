@@ -171,7 +171,7 @@
     <th>22.68 </th>
     <th>31.69</th>
   </tr>
-  <tr>
+  <!-- <tr>
     <th>P3D<sup>#</sup></th>
     <th>62.28  </th>
     <th>40.87 </th>
@@ -182,8 +182,8 @@
     <th>2.51 </th>
     <th>28.44 </th>
     <th>38.41</th>
-  </tr>
-  <tr>
+  </tr> -->
+  <!-- <tr>
     <th>R2Plus1D<sup>#</sup></th>
     <th>72.57 </th>
     <th>51.95 </th>
@@ -194,7 +194,7 @@
     <th>7.29 </th>
     <th>34.75 </th>
     <th>44.27</th>
-  </tr>
+  </tr> -->
   <tr>
     <th>3DR18</th>
     <th>57.64 </th>
@@ -267,7 +267,7 @@
     <th>32.79 </th>
     <th>44.54</th>
   </tr>
-  <tr>
+  <!-- <tr>
     <th>Former-DFER<sup>#[2]</sup></th>
     <th>67.57</th>
     <th>44.16</th>
@@ -278,18 +278,18 @@
     <th>9.80</th>
     <th>36.88</th>
     <th>45.72</th>
-  </tr>
+  </tr> -->
   <tr>
   <th>NR-DFERNet<sup>#[5]</sup></th>
-  <th>69.18</th>
-  <th>54.77</th>
-  <th>51.12</th>
-  <th>49.70</th>
-  <th>13.17</th>
-  <th>0.00</th>
-  <th>0.23</th>
-  <th>33.99</th>
-  <th>45.97</th>
+    <th>69.18</th>
+    <th>54.77</th>
+    <th>51.12</th>
+    <th>49.70</th>
+    <th>13.17</th>
+    <th>0.00</th>
+    <th>0.23</th>
+    <th>33.99</th>
+    <th>45.97</th>
   </tr>
 </tbody>
 </table>
