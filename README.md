@@ -1,8 +1,8 @@
 # Awesome Dynamic Facial Expression Recognition
 
-**This repo presents the performance of the SOTA methods on popular in-the-wild DFER benchmarks.**
-**The superscript # denotes methods conducted with the same setting, the code can be found [HERE](https://github.com/zengqunzhao/Former-DFER).**
-**Contributions are very welcome! Feel free to pull request and improve this repo!**
+**This repo presents the performance of the SOTA methods on popular in-the-wild DFER benchmarks.**<br>
+**The superscript # denotes methods conducted with the same setting, the code can be found [HERE](https://github.com/zengqunzhao/Former-DFER).**<br>
+**Contributions are very welcome! Feel free to pull request and improve this repo!**<br>
 
 
 
