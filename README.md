@@ -1,8 +1,12 @@
 # Awesome Dynamic Facial Expression Recognition
 
-**[Note] This repo presents the performance of the SOTA methods on popular benchmarks. The superscript # denotes methods conducted with the same setting, the code can be found [here](https://github.com/zengqunzhao/Former-DFER). Contributions are very welcome! Feel free to pull request and improve this repo!**
+**This repo presents the performance of the SOTA methods on popular in-the-wild DFER benchmarks.**
+**The superscript # denotes methods conducted with the same setting, the code can be found [HERE](https://github.com/zengqunzhao/Former-DFER).**
+**Contributions are very welcome! Feel free to pull request and improve this repo!**
 
-- [Awesome Dynamic Facial Expression Recognition](#awesome-dynamic-facial-expression-recognition)
+
+
+- **Content**
   - [DFEW Benchmark [ACM MM 2021]](#dfew-benchmark-acm-mm-2021)
   - [FERV39k Benchmark [CVPR 2022]](#ferv39k-benchmark-cvpr-2022)
     - [Basic DFER](#basic-dfer)
@@ -267,18 +271,18 @@
     <th>32.79 </th>
     <th>44.54</th>
   </tr>
-  <!-- <tr>
+  <tr>
     <th>Former-DFER<sup>#[2]</sup></th>
-    <th>67.57</th>
-    <th>44.16</th>
-    <th>51.81</th>
-    <th>48.93</th>
-    <th>25.09</th>
-    <th>10.80</th>
-    <th>9.80</th>
-    <th>36.88</th>
-    <th>45.72</th>
-  </tr> -->
+    <th>65.65</th>
+    <th>51.33</th>
+    <th>56.74</th>
+    <th>43.64</th>
+    <th>21.94</th>
+    <th>8.57</th>
+    <th>12.529</th>
+    <th>37.20</th>
+    <th>46.85</th>
+  </tr>
   <tr>
   <th>NR-DFERNet<sup>#[5]</sup></th>
     <th>69.18</th>
@@ -306,7 +310,7 @@
 
 ## [AFEW Benchmark](https://cs.anu.edu.au/few/AFEW.html) [IEEE Multimedia 2012]
 
-## [References]()
+## [References](#referances)
 
 1. Jiang X, Zong Y, Zheng W, et al. Dfew: A large-scale database for recognizing dynamic facial expressions in the wild. ACM MM, 2020. [[Paper](https://doi.org/10.1145/3394171.3413620)]
 2. Zhao Z, Liu Q. Former-dfer: Dynamic facial expression recognition transformer. ACM MM, 2021. [[Paper](https://doi.org/10.1145/3394171.3413620)] [[Code](https://github.com/zengqunzhao/Former-DFER)]
