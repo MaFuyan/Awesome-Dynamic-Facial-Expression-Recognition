@@ -1,7 +1,7 @@
 # Awesome Dynamic Facial Expression Recognition
 
 **This repo presents the performance of the SOTA methods on popular in-the-wild DFER benchmarks.**<br>
-**The superscript # denotes methods conducted with the same setting, the code can be found [HERE](https://github.com/zengqunzhao/Former-DFER).**<br>
+**The superscript # denotes methods conducted with the same Dynamic Sampling, the code can be found [HERE](https://github.com/zengqunzhao/Former-DFER/tree/main/dataloader).**<br>
 **Contributions are very welcome! Feel free to pull request and improve this repo!**<br>
 
 
@@ -304,12 +304,244 @@
 
 ### 11-Class Uni-Modal Single Expression Classification
 
+<table>
+<thead>
+  <tr>
+    <th rowspan="2">Models</th>
+    <th colspan="11">Accuracy of Each Emotion (%)</th>
+    <th colspan="2">Metrics (%)</th>
+  </tr>
+  <tr>
+    <th>AN</th>
+    <th>DI</th>
+    <th>FE</th>
+    <th>HA</th>
+    <th>NE</th>
+    <th>SA</th>
+    <th>SU</th>
+    <th>CO</th>
+    <th>AX</th>
+    <th>HL</th>
+    <th>DS</th>
+    <th>UAR</th>
+    <th>WAR</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th>ResNet18</th>
+    <th>45.02</th>
+    <th>9.25</th>
+    <th>22.51</th>
+    <th>70.69</th>
+    <th>35.94</th>
+    <th>52.25</th>
+    <th>39.04</th>
+    <th>0.00</th>
+    <th>6.67</th>
+    <th>0.00</th>
+    <th>0.00</th>
+    <th>25.58</th>
+    <th>36.65</th>
+  </tr>
+  <tr>
+    <th>VIT</th>
+    <th>46.03</th>
+    <th>18.18</th>
+    <th>27.49</th>
+    <th>76.89</th>
+    <th>50.70</th>
+    <th>68.19</th>
+    <th>45.13</th>
+    <th>1.27</th>
+    <th>18.93</th>
+    <th>1.53</th>
+    <th>1.65</th>
+    <th>32.36</th>
+    <th>45.04</th>
+  </tr>
+  <tr>
+    <th>EmotionClassifier</th>
+    <th>13.60</th>
+    <th>4.07</th>
+    <th>0.08</th>
+    <th>81.09</th>
+    <th>75.48</th>
+    <th>47.82</th>
+    <th>53.02</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>39.85</th>
+    <th>44.75</th>
+  </tr>
+  <tr>
+    <th>C3D</th>
+    <th>51.47</th>
+    <th>10.66</th>
+    <th>24.66</th>
+    <th>70.64</th>
+    <th>43.81</th>
+    <th>55.04</th>
+    <th>46.61</th>
+    <th>1.68</th>
+    <th>24.34</th>
+    <th>5.73</th>
+    <th>4.93</th>
+    <th>31.17</th>
+    <th>42.25</th>
+  </tr>
+  <tr>
+    <th>R18+LSTM</th>
+    <th>46.25</th>
+    <th>4.70</th>
+    <th>25.56</th>
+    <th>68.92</th>
+    <th>44.99</th>
+    <th>51.91</th>
+    <th>45.88</th>
+    <th>1.69</th>
+    <th>15.75</th>
+    <th>1.53</th>
+    <th>1.65</th>
+    <th>28.08</th>
+    <th>39.38</th>
+  </tr>
+  <tr>
+    <th>VIT+LSTM</th>
+    <th>42.42</th>
+    <th>14.58</th>
+    <th>35.69</th>
+    <th>76.25</th>
+    <th>54.48</th>
+    <th>68.87</th>
+    <th>41.01</th>
+    <th>0.00</th>
+    <th>24.40</th>
+    <th>0.00</th>
+    <th>1.65</th>
+    <th>32.67</th>
+    <th>45.56</th>
+  </tr>
+  <tr>
+    <th>C3D+LSTM</th>
+    <th>54.91</th>
+    <th>0.47</th>
+    <th>9.00</th>
+    <th>73.43</th>
+    <th>41.39</th>
+    <th>64.92</th>
+    <th>58.43</th>
+    <th>0.00</th>
+    <th>24.62</th>
+    <th>0.00</th>
+    <th>0.00</th>
+    <th>29.75</th>
+    <th>43.76</th>
+  </tr>
+  <tr>
+    <th>T-ESFL<sup>[7]</sup></th>
+    <th>62.70</th>
+    <th>2.51</th>
+    <th>29.90</th>
+    <th>83.82</th>
+    <th>61.16</th>
+    <th>67.98</th>
+    <th>48.50</th>
+    <th>0.00</th>
+    <th>9.52</th>
+    <th>0.00</th>
+    <th>0.00</th>
+    <th>33.28</th>
+    <th>48.18</th>
+  </tr>
+</tbody>
+</table>
+
+**Anger, Disgust, Fear, Happiness, Neutral, Sadness, Surprise, Contempt, Anxiety, Helplessness, Disappointment**
+
 ### 11-Class Multi-Modal Single Expression Classification
 
 ## [CAER Benchmark](https://caer-dataset.github.io/) [ICCV 2021]
 
 ## [AFEW Benchmark](https://cs.anu.edu.au/few/AFEW.html) [IEEE Multimedia 2012]
 
+<table>
+<thead>
+  <tr>
+    <th rowspan="2">Methods</th>
+    <th rowspan="2">Pre-trained Datasets</th>
+    <th colspan="2">Metrics (%)</th>
+  </tr>
+  <tr>
+    <th>UAR</th>
+    <th>WAR</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th>C3D<sup>#</sup></th>
+    <th>DFEW (fd1)</th>
+    <th>43.75</th>
+    <th>46.72</th>
+  </tr>
+  <tr>
+    <th>I3D-RGB<sup>#</sup></th>
+    <th>DFEW (fd1)</th>
+    <th>41.86</th>
+    <th>45.41</th>
+  </tr>
+  <tr>
+    <th>R(2+1)D<sup>#</sup></th>
+    <th>DFEW (fd1)</th>
+    <th>42.89</th>
+    <th>46.19</th>
+  </tr>
+  <tr>
+    <th>3DR18<sup>#</sup></th>
+    <th>DFEW (fd1)</th>
+    <th>42.14</th>
+    <th>45.67</th>
+  </tr>
+  <tr>
+    <th>R18+LSTM<sup>#</sup></th>
+    <th>DFEW (fd1)</th>
+    <th>43.96</th>
+    <th>48.82</th>
+  </tr>
+  <tr>
+    <th>EC-STFL<sup>[1]</sup></th>
+    <th>DFEW (fd2)</th>
+    <th>\</th>
+    <th>53.26</th>
+  </tr>
+  <tr>
+    <th>Former-DFER<sup>#[2]</sup></th>
+    <th>DFEW (fd1)</th>
+    <th>47.42</th>
+    <th>50.92</th>
+  </tr>
+  <tr>
+    <th>EST<sup>[3]</sup></th>
+    <th>Unknown</th>
+    <th>49.57</th>
+    <th>54.26</th>
+  </tr>
+  <tr>
+    <th>STT<sup>#[4]</sup></th>
+    <th>DFEW (fd1)</th>
+    <th>49.11</th>
+    <th>54.23</th>
+  </tr>
+  <tr>
+    <th>NR-DFERNet<sup>#[5]</sup></th>
+    <th>DFEW (fd1)</th>
+    <th>48.37</th>
+    <th>53.54</th>
+  </tr>
+</tbody>
+</table>
 ## [References](#referances)
 
 1. Jiang X, Zong Y, Zheng W, et al. Dfew: A large-scale database for recognizing dynamic facial expressions in the wild. ACM MM, 2020. [[Paper](https://doi.org/10.1145/3394171.3413620)]
@@ -318,6 +550,4 @@
 4. Ma F, Sun B, Li S. Spatio-Temporal Transformer for Dynamic Facial Expression Recognition in the Wild. arXiv, 2022. [[Paper](https://arxiv.org/abs/2205.04749)]
 5. Li H, Sui M, Zhu Z. NR-DFERNet: Noise-Robust Network for Dynamic Facial Expression Recognition. arXiv, 2022.[[Paper](https://arxiv.org/abs/2206.04975)]
 6. Wang Y, Sun Y, Huang Y, et al. FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos. CVPR, 2022.[[Paper](https://arxiv.org/abs/2203.09463)]
-
-
-
+7. Liu Y, Dai W, Feng C, et al. MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild. ACM MM, 2022. [[Paper](https://mafw-database.github.io/MAFW/)]
