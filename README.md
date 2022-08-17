@@ -542,7 +542,8 @@
   </tr>
 </tbody>
 </table>
-## [References](#referances)
+
+## [References]()
 
 1. Jiang X, Zong Y, Zheng W, et al. Dfew: A large-scale database for recognizing dynamic facial expressions in the wild. ACM MM, 2020. [[Paper](https://doi.org/10.1145/3394171.3413620)]
 2. Zhao Z, Liu Q. Former-dfer: Dynamic facial expression recognition transformer. ACM MM, 2021. [[Paper](https://doi.org/10.1145/3394171.3413620)] [[Code](https://github.com/zengqunzhao/Former-DFER)]
