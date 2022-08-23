@@ -284,6 +284,18 @@
     <th>46.85</th>
   </tr>
   <tr>
+    <th>STT<sup>#[4]</sup></th>
+    <th>69.77</th>
+    <th>47.81</th>
+    <th>59.14</th>
+    <th>47.41</th>
+    <th>20.22</th>
+    <th>10.49</th>
+    <th>9.51</th>
+    <th>37.76</th>
+    <th>48.11</th>
+  </tr>
+  <tr>
   <th>NR-DFERNet<sup>#[5]</sup></th>
     <th>69.18</th>
     <th>54.77</th>
