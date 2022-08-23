@@ -2,7 +2,7 @@
 
 **This repo presents the performance of the SOTA methods on popular in-the-wild DFER benchmarks.**<br>
 **The superscript # denotes methods conducted with the same Dynamic Sampling, the code can be found [HERE](https://github.com/zengqunzhao/Former-DFER/tree/main/dataloader).**<br>
-**Contributions are very welcome! Feel free to pull request and improve this repo!**<br>
+**Contributions are very welcome! Feel free to pull requests and improve this repo!**<br>
 
 
 
