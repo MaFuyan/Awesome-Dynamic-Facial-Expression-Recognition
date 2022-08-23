@@ -557,8 +557,8 @@
 
 ## [References]()
 
-1. Jiang X, Zong Y, Zheng W, et al. Dfew: A large-scale database for recognizing dynamic facial expressions in the wild. ACM MM, 2020. [[Paper](https://doi.org/10.1145/3394171.3413620)]
-2. Zhao Z, Liu Q. Former-dfer: Dynamic facial expression recognition transformer. ACM MM, 2021. [[Paper](https://doi.org/10.1145/3394171.3413620)] [[Code](https://github.com/zengqunzhao/Former-DFER)]
+1. Jiang X, Zong Y, Zheng W, et al. DFEW: A large-scale database for recognizing dynamic facial expressions in the wild. ACM MM, 2020. [[Paper](https://doi.org/10.1145/3394171.3413620)]
+2. Zhao Z, Liu Q. Former-DFER: Dynamic facial expression recognition transformer. ACM MM, 2021. [[Paper](https://doi.org/10.1145/3394171.3413620)] [[Code](https://github.com/zengqunzhao/Former-DFER)]
 3. Liu Y, Wang W, Feng C, et al. Expression Snippet Transformer for Robust Video-based Facial Expression Recognition. arXiv, 2021. [[Paper](https://arxiv.org/abs/2109.08409)]
 4. Ma F, Sun B, Li S. Spatio-Temporal Transformer for Dynamic Facial Expression Recognition in the Wild. arXiv, 2022. [[Paper](https://arxiv.org/abs/2205.04749)]
 5. Li H, Sui M, Zhu Z. NR-DFERNet: Noise-Robust Network for Dynamic Facial Expression Recognition. arXiv, 2022.[[Paper](https://arxiv.org/abs/2206.04975)]
